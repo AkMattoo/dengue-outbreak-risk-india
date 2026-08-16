@@ -1,0 +1,23 @@
+# Raw and derived data are never committed -- the code that builds them is.
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+!data/raw/datagovin/SOURCES.md
+
+models/*.pkl
+# figures ARE committed: they are the deliverable
+!reports/figures/.gitkeep
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+.env
+.DS_Store
+.idea/
+.vscode/
+!data/raw/census_Table_2A_State_Uts.csv
