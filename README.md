@@ -4,7 +4,7 @@ Predicts the probability that an Indian state reports a **dengue outbreak** 1–
 using India's IDSP outbreak surveillance records (via the EpiClim dataset) combined with
 Census 2011 demographics.
 
-**Report:** [`reports/Dengue_Report.pdf`](reports/Dengue_Report.pdf) · **Live results page:** `<your-vercel-url>`
+**Report:** `reports/Dengue_Report.pdf`, included in [`dengue-forecasting.zip`](dengue-forecasting.zip) · **Results page:** [`index.html`](index.html)
 
 ---
 
